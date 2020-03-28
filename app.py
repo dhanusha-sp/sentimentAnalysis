@@ -46,4 +46,5 @@ def sentiment():
     return render_template('index.html', result=sentiment_textblob)
 
 if __name__ == "__main__":
-    app.run( debug = True )
+     print('https://vsc-output-iventura.apps.prod.pdcloudex.com/')
+     app.run( debug = True )
