@@ -47,4 +47,5 @@ def sentiment():
 
 if __name__ == "__main__":
      print('https://vsc-output-iventura.apps.prod.pdcloudex.com/')
-     app.run( debug = True )
+     app.run(debug = True,host='0.0.0.0', port=8080 )
+
